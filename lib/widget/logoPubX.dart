@@ -12,7 +12,7 @@ class LogoPubX extends StatelessWidget {
       decoration: BoxDecoration(
         //color: Colors.white,
         image: DecorationImage(
-                    image: AssetImage('assets/images/t1.png'), fit: BoxFit.contain)
+                    image: AssetImage('assets/images/ussd2.png'), fit: BoxFit.contain)
       ),
     );
   }

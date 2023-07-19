@@ -39,6 +39,9 @@ dependencies:
   line_awesome_flutter: ^2.0.0
   flutter_native_splash: ^2.3.1
   ussd_advanced: ^1.1.0
+  ussd_service: ^0.1.1
+  permission_handler: ^10.4.3
+  sim_data: ^0.0.2
 
 dev_dependencies:
   flutter_test:
@@ -65,7 +68,7 @@ flutter:
   # To add assets to your application, add an assets section, like this:
   assets:
     - assets/images/
-    - assets/images/photos
+    - assets/images/photos/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware

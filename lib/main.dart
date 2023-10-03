@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'acceuil.dart';
-import 'home.dart';
-import 'homePage.dart';
+import 'package:get_storage/get_storage.dart';
+import 'package:tussdapp/pages/SelectService.dart';
+import 'package:tussdapp/pages/homePage.dart';
 
-void main() {
+void main() async {
+  await GetStorage.init();
   runApp(const MyApp());
 }
 
@@ -18,11 +19,11 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Tussd App',
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Color.fromARGB(255, 0, 3, 92)),
+        colorScheme:
+            ColorScheme.fromSeed(seedColor: Color.fromARGB(255, 0, 3, 92)),
         useMaterial3: true,
       ),
-      home: const AcceuilPage(),
+      home: SelectService(),
     );
   }
 }
-

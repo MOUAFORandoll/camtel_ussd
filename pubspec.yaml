@@ -2,7 +2,7 @@ name: tussdapp
 description: A new Flutter project.
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
-publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
 
 # The following defines the version and build number for your application.
 # A version number is three numbers separated by dots, like 1.2.43
@@ -19,7 +19,7 @@ publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 version: 1.0.0+1
 
 environment:
-  sdk: '>=3.0.6 <4.0.0'
+  sdk: ">=3.0.6 <4.0.0"
 
 # Dependencies specify other packages that your package needs in order to work.
 # To automatically upgrade your package dependencies to the latest versions
@@ -31,17 +31,18 @@ dependencies:
   flutter:
     sdk: flutter
 
-
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
   get: ^4.6.5
-  line_awesome_flutter: ^2.0.0
+   
   flutter_native_splash: ^2.3.1
-  ussd_advanced: ^1.1.0
-  ussd_service: ^0.1.1
   permission_handler: ^10.4.3
   sim_data: ^0.0.2
+  ussd_advanced: ^1.1.0
+  ussd_serv: ^0.0.9
+  ussd_service: ^0.1.1
+  get_storage: ^2.1.1
 
 dev_dependencies:
   flutter_test:
@@ -59,7 +60,6 @@ dev_dependencies:
 
 # The following section is specific to Flutter packages.
 flutter:
-
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
   # the material Icons class.
@@ -96,13 +96,13 @@ flutter:
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
 flutter_native_splash:
-  color: '#f7f6f1'
+  color: "#f7f6f1"
   image: assets/images/s13.png
   branding_mode: bottom
   branding: assets/images/logo-toltec.png
-  
+
   android_12:
-    icon_background_color: '#f7f6f1'
+    icon_background_color: "#f7f6f1"
     image: assets/images/s13.png
     branding_mode: bottom
     branding: assets/images/logo-toltec.png
